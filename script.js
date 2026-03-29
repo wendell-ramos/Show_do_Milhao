@@ -56,11 +56,61 @@ let perguntas = [
         pergunta: "Qual o valor de 2^10?",
         opcoes: ["512", "1024", "2048", "4096"],
         correta: 1
+    },
+        {
+        pergunta: "Qual o maior país do mundo em área?",
+        opcoes: ["China", "Canadá", "Rússia", "Estados Unidos"],
+        correta: 2
+    },
+    {
+        pergunta: "Qual elemento químico tem o símbolo 'O'?",
+        opcoes: ["Ouro", "Oxigênio", "Osmium", "Olívio"],
+        correta: 1
+    },
+    {
+        pergunta: "Qual é a capital da França?",
+        opcoes: ["Lyon", "Marselha", "Paris", "Nice"],
+        correta: 2
+    },
+    {
+        pergunta: "Quantos segundos tem 1 hora?",
+        opcoes: ["3600", "1800", "600", "7200"],
+        correta: 0
+    },
+    {
+        pergunta: "Quem pintou a Mona Lisa?",
+        opcoes: ["Van Gogh", "Leonardo da Vinci", "Michelangelo", "Picasso"],
+        correta: 1
+    },
+    {
+        pergunta: "Qual é o menor número primo?",
+        opcoes: ["0", "1", "2", "3"],
+        correta: 2
+    },
+    {
+        pergunta: "Em que país fica a Torre de Pisa?",
+        opcoes: ["Espanha", "Itália", "França", "Alemanha"],
+        correta: 1
+    },
+    {
+        pergunta: "Qual é a fórmula da água?",
+        opcoes: ["H2O", "CO2", "O2", "NaCl"],
+        correta: 0
+    },
+    {
+        pergunta: "Quem escreveu 'Dom Quixote'?",
+        opcoes: ["Miguel de Cervantes", "Shakespeare", "Fernando Pessoa", "Machado de Assis"],
+        correta: 0
+    },
+    {
+        pergunta: "Qual é a cor resultante da mistura de azul e amarelo?",
+        opcoes: ["Verde", "Roxo", "Laranja", "Marrom"],
+        correta: 0
     }
 ];
 
 function iniciarJogo() {
-    embaralharPerguntas(perguntas); // 👈 aqui faz ficar aleatório
+    embaralharPerguntas(perguntas); 
 
     document.getElementById("inicio").style.display = "none";
     document.getElementById("jogo").style.display = "block";
