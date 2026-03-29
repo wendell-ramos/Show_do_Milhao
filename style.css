@@ -1,0 +1,52 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background: linear-gradient(to right, #000066, #0000cc);
+    color: white;
+}
+
+h1 {
+    background: linear-gradient(to right, red, darkred);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#pergunta {
+    background: linear-gradient(to right, red, darkred);
+    padding: 15px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 12px;
+    width: 300px;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    background: linear-gradient(to right, red, darkred);
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: gold;
+    color: black;
+}
+
+#btnParar {
+    background: linear-gradient(to right, blue, darkblue);
+}
+
+#valor {
+    background: gold;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 10px;
+}

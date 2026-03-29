@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Show do Milhão</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- TELA INICIAL -->
+<div id="inicio">
+    <h1>Show do Milhão 💰</h1>
+    <button onclick="iniciarJogo()">Iniciar Jogo</button>
+</div>
+
+<!-- TELA DO JOGO -->
+<div id="jogo" style="display:none;">
+    <h2 id="valor"></h2>
+    <h3 id="pergunta"></h3>
+
+    <div id="respostas"></div>
+
+    <button id="btnParar" onclick="pararJogo()">Parar</button>
+</div>
+
+<!-- TELA FINAL -->
+<div id="fim" style="display:none;">
+    <h1 id="mensagemFinal"></h1>
+    <button onclick="location.reload()">Jogar Novamente</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
